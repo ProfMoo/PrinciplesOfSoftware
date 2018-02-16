@@ -1,0 +1,62 @@
+*.config
+*.manifest
+*.pkgdef
+*.suo
+*.userprefs
+*.vsix
+*.vsixmanifest
+*~
+
+Binaries/*.dll
+Binaries/*.mdb
+Binaries/*.pdb
+Binaries/*.xml
+Binaries/z3/
+Binaries/Dafny.exe
+Binaries/Dafny.vshost.exe
+Binaries/DafnyServer.exe
+Binaries/export/
+
+Package/
+
+Source/*/bin/
+Source/*/obj/
+Source/packages
+
+Source/Dafny/Parser.cs.old
+Source/Dafny/Scanner.cs.old
+Source/DafnyExtension/DafnyPrelude.bpl
+Source/DafnyExtension/DafnyRuntime.cs
+Source/DafnyExtension/Z3-LICENSE.txt
+Source/DafnyExtension/z3.exe
+
+Test/**/*.exe
+Test/**/*.dll
+Test/**/*.mdb
+Test/**/Output/
+Test/server/model.bvd
+Test/dafny0/Extern.cs
+Test/desktop/*
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
